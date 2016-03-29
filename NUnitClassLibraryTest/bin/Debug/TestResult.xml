@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\projects\NUnit-ClassLibrary\NUnitClassLibraryTest\bin\Debug\NUnitClassLibraryTest.dll" total="24" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-03-29" time="10:21:25">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.34209" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE" machine-name="VM-OAL04-PC" user="rkou1" user-domain="VM-OAL04-PC" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Assembly" name="C:\projects\NUnit-ClassLibrary\NUnitClassLibraryTest\bin\Debug\NUnitClassLibraryTest.dll" executed="True" result="Success" success="True" time="1.178" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NUnitClassLibraryTest" executed="True" result="Success" success="True" time="1.141" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="MainClassTest" executed="True" result="Success" success="True" time="1.107" asserts="0">
+            <results>
+              <test-case name="NUnitClassLibraryTest.MainClassTest.TestAssertThat" executed="True" result="Success" success="True" time="0.017" asserts="6" />
+              <test-case name="NUnitClassLibraryTest.MainClassTest.TestBasic" executed="True" result="Success" success="True" time="0.028" asserts="4" />
+              <test-suite type="ParameterizedTest" name="TestCollectionAssert" executed="True" result="Success" success="True" time="0.419" asserts="0">
+                <results>
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(1,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(2,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(3,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(4,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(5,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(6,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(7,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(8,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(9,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(10,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(11,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestCollectionAssert(12,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="NUnitClassLibraryTest.MainClassTest.TestExpectedException" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+              <test-suite type="ParameterizedTest" name="TestFileAssert" executed="True" result="Success" success="True" time="0.034" asserts="0">
+                <results>
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestFileAssert(&quot;./\x30C6\x30B9\x30C8\x30C7\x30FC\x30BF.txt&quot;,&quot;./\x30C6\x30B9\x30C8\x30C7\x30FC\x30BF1.txt&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TestStringAssert" executed="True" result="Success" success="True" time="0.249" asserts="0">
+                <results>
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestStringAssert(1,&quot;abc&quot;,&quot;123abcde&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestStringAssert(2,&quot;ABC&quot;,&quot;123abcde&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestStringAssert(3,&quot;abc&quot;,&quot;abcde&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestStringAssert(4,&quot;b&quot;,&quot;abcde&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestStringAssert(5,&quot;aBc\xFF21&quot;,&quot;AbC\xFF41&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestStringAssert(6,&quot;^0[0-9]+-\\d+-[0-9]{4}$&quot;,&quot;052-99\xFF19-0000&quot;)" executed="True" result="Success" success="True" time="0.042" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TestTestCase" executed="True" result="Success" success="True" time="0.069" asserts="0">
+                <results>
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestTestCase(300,200,True)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="NUnitClassLibraryTest.MainClassTest.TestTestCase(100,200,False)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
